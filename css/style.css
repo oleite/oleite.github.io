@@ -1,0 +1,105 @@
+body {
+    background-color: #090909;
+    
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height: 100vh;
+    margin: 0;
+    gap: 30px;
+    flex-wrap: wrap;
+    
+    font-family: 'Ubuntu', sans-serif;
+    color: white;
+}
+a {
+    text-decoration: none;
+
+}
+.social {
+    padding: 0;
+    margin-top: 25px;
+}
+.social li {
+    width: 100%;
+    list-style: none;
+}
+.social li a {
+    display: block;
+    width: 100%;
+    padding: 3px;
+    
+    color: white;
+    font-weight: 300;
+}
+.social li a span {
+    display:none;
+    float: right;
+    color: #222;
+    font-weight: 400;
+}
+.social li a:hover {
+    background-color: rgba(255,255,255,.02);
+}
+.social li a:hover span {
+    display: inline;
+}
+a#artstation:hover {
+    color: #13aff0;
+}
+a#instagram:hover {
+    color: #cd0079;
+}
+a#youtube:hover {
+    color:#ff0000;
+}
+a#vimeo:hover {
+    color: #1ab7ea;
+}
+a#linkedin:hover {
+    color: #0e76a8;
+}
+a#flickr:hover {
+    color: #ff00aa;
+}
+a#gumroad:hover {
+    color: #ff90e8;
+}
+a#github:hover {
+    color: #58a6ff;
+}
+a#twitter:hover {
+    color: #1DA1F2;
+}
+
+
+.who .name {
+    font-weight: 500;
+    margin-top: 16px;
+    margin-bottom: 2px;
+}
+.who .role {
+    color: #656565;
+    font-weight: 400;
+}
+.who .email {
+    font-weight: 300;
+    margin: 0;
+    margin-top: 3px;
+}
+.who .email a {
+    color: #656565;
+}
+
+.demoreel {
+    position: relative;
+    width: 90%;
+    max-width: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.demoreel div {
+    width: 100%;
+}
