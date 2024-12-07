@@ -14,7 +14,6 @@ body {
 }
 a {
     text-decoration: none;
-
 }
 .social {
     padding: 0;
@@ -71,6 +70,9 @@ a#github:hover {
 a#twitter:hover {
     color: #1DA1F2;
 }
+a#bsky:hover {
+    color: #78cbff;
+}
 
 
 .who .name {
@@ -98,7 +100,6 @@ a#twitter:hover {
     display: flex;
     align-items: center;
     justify-content: center;
-    
 }
 .demoreel div {
     width: 100%;
